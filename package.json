@@ -23,6 +23,7 @@
     "start": "python -m SimpleHTTPServer"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "long": "^3.0.3",
     "request": "^2.69.0"
   },

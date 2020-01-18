@@ -4,6 +4,24 @@ An implementation of [Forth](https://en.wikipedia.org/wiki/Forth_(programming_la
 
 Try it out [here](https://brendanator.github.io/jsForth/) 
 
+### Node js
+
+The file has done 
+
+(and assume just using the index.html or 
+                 using python -m SimpleHTTPServer)
+
+```npm install -g browserify```
+```browserify ?.js -o bundle.js```
+```<script src="bundle.js"></script>```
+
+if one install express (globally using sudo, not recommended)
+
+one can add a server.js to do this on node
+
+```node server.js```
+```http:\\localhost:8080``` under browser
+
 ### ANS Forth
 
 jsForth implements the full core ANS standard
